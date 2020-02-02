@@ -2,6 +2,6 @@ git fetch
 
 echo "fetching"
 
-git pull origin mastere
+git pull origin master
 
 echo "pulled"
