@@ -1,7 +1,7 @@
-git fetch
+git fetch origin master
 
 echo "fetching"
 
-git pull origin master
+git reset --hard FETCH_HEAD
 
 echo "pulled"
