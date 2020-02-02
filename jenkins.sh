@@ -1,11 +1,6 @@
-git fetch --all
-
-echo "fetching"
-
-git pull origin master
-
-echo "pulled"
-
-composer dumpautoload
-
-echo "composer dumpautoload"
+git reset --hard;\
+        git fetch --all;\
+        git checkout -f master;\
+        git reset --hard;\
+        git fetch --all;\
+        git pull origin master;\
