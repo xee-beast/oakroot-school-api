@@ -4,3 +4,4 @@ git reset --hard;\
         git reset --hard;\
         git fetch --all;\
         git pull origin master;\
+git pull;\
